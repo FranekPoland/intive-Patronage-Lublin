@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Assets/style.css" />
     <link rel="icon" type="image/png" href="../Assets/favicon.png" />
 </head>
@@ -12,39 +14,46 @@
 <body>
     <div class="main">
         <header>
-            <span>
-                <img class="logo" src="../Assets/logo.png">
-                HEADER
-            </span>
-            <span>
-                wyszukiwarka
-            </span>
-            <span>
-                Hi John
-            </span>
+            <div class="div1"><img class="logo" src="../Assets/logo.png"></div>
+            <div class="div2"><input class="divsearch" type="text" placeholder="Search rooms" name="search"></div>
+            <div class="div3"><img class="header-img" src="../Assets/user.jpg">
+                <div class="user">Hi John</div>
+            </div>
         </header>
         <div class="navbar">
-            NAVBAR
+            <ul>
+                <li class="nav-item">ABOUT US</li>
+                <li class="nav-item">HOTEL</li>
+                <li class="nav-item">CONTACT US</li>
+            </ul>
+            <div class="nav-bottom">
+                <a class="rights">© 2021 All rights reserved.</a>
+            </div>
         </div>
         <div class="container">
             <div class="img-container">
-                <div class="imgbox">
+                <div class="clearfix imgbox">
                     <img class="img" src="../Assets/hotel-1.jpg">
                 </div>
-                <div class="imgbox">
+                <div class="clearfix imgbox">
                     <img class="img" src="../Assets/hotel-2.jpg">
                 </div>
-                 <div class="imgbox">
+                 <div class="clearfix imgbox">
                     <img class="img" src="../Assets/hotel-3.jpg">
                 </div>
             </div>
             <div class="view-container">
-                VIEW
-                <div>
-                    Hotel de las palmas
-                    <div>
-                        8.6 ocena
+                <div class="view-header">
+                    <div class="hotel">HOTEL DE LAS PALMAS</div>
+                    <div class="rating">
+                        <div class="score">8.6 </div>
+                        <div class="votes">429 votes </div>
                     </div>
+                    <div class="header-link">
+                        <a class ="link">Albufeira, Portugal</a>
+                    </div>
+                    </div>
+                   
                 </div>
                 <div>
 
