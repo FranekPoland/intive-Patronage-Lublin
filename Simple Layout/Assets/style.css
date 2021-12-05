@@ -137,8 +137,7 @@ body {
 
     .main {
         margin-top: 10%;
-        width: 100%;
-        margin-left: 0;
+
     }
 
     .view-container .view-header {
@@ -148,7 +147,7 @@ body {
 
     .view-container .content {
         font-size: 9px;
-        /* height: 80%; */
+        height: 80%;
     }
     
 
