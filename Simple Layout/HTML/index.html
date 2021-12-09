@@ -235,7 +235,7 @@
                 container.classList.add('hidden');
                 });
 
-                document.querySelector(className).classList.remove('hidden')
+                document.querySelector(className).classList.remove('hidden');
 
             }, false);
         });
@@ -243,13 +243,11 @@
         hbbuttons.forEach(function(button) {
             button.addEventListener('click', function(event) {
                 var className ='.' + event.currentTarget.id.replace('1', '');
-                console.log(className);
                 containers.forEach(function(container) {
-                    console.log(container);
                 container.classList.add('hidden');
                 });
 
-                document.querySelector(className).classList.remove('hidden')
+                document.querySelector(className).classList.remove('hidden');
 
             }, false);
         });
